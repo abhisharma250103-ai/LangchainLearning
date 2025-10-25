@@ -16,4 +16,7 @@ dependencies = [
     "uvicorn>=0.34.0",
     "google-search-results>=2.4.2",
     "langchain-google-genai>=2.0.9",
+    "matplotlib>=3.10.7",
+    "huggingface-hub>=0.36.0",
+    "langchain-huggingface>=1.0.0",
 ]
