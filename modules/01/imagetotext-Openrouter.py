@@ -37,7 +37,7 @@ load_dotenv()
 response = requests.post(
     "https://openrouter.ai/api/v1/chat/completions",
     headers={
-        "Authorization": "Bearer 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",
+        "Authorization": f"Bearer {os.getenv('OPENROUTERAPI_KEY')}",
         "Content-Type": "application/json"
     },
     json={
